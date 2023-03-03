@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription"
-        tools:srcCompat="@sample/posts_avatars" />
+        app:srcCompat="@drawable/post_avatar_drawable" />
 
 
     <TextView
