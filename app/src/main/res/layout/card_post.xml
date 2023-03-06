@@ -17,8 +17,8 @@
         app:layout_constraintBottom_toBottomOf="@id/barrier"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription"
-        app:srcCompat="@drawable/post_avatar_drawable" />
+        app:srcCompat="@drawable/post_avatar_drawable"
+        tools:ignore="ContentDescription" />
 
 
     <TextView
@@ -137,8 +137,7 @@
         android:layout_marginStart="@dimen/count_spacing"
         android:layout_marginTop="@dimen/common_spacing"
         app:layout_constraintStart_toEndOf="@id/share"
-        app:layout_constraintTop_toBottomOf="@id/barrier1"
-        />
+        app:layout_constraintTop_toBottomOf="@id/barrier1" />
 
     <TextView
         android:id="@+id/likes_count"
@@ -147,7 +146,6 @@
         android:layout_marginStart="@dimen/count_spacing"
         android:layout_marginTop="@dimen/common_spacing"
         app:layout_constraintStart_toEndOf="@id/like"
-        app:layout_constraintTop_toBottomOf="@id/barrier1"
-        />
+        app:layout_constraintTop_toBottomOf="@id/barrier1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
